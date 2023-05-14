@@ -12,7 +12,9 @@ require("mason-lspconfig").setup({
     automatic_installation = true,
 })
 
-local on_attach = function(_, _)
+local navic = require('nvim-navic')
+
+local on_attach = function(client, bufnr)
     -- vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
     -- vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
 
@@ -31,6 +33,10 @@ local on_attach = function(_, _)
     vim.keymap.set('n', '<leader>lo', '<cmd>Lspsaga outline<cr>', {})
     vim.keymap.set('n', '<leader>lr', '<cmd>Lspsaga rename<cr>', {})
     vim.keymap.set('n', 'K', '<cmd>Lspsaga hover_doc<cr>', {})
+
+    if client.server_capabilities.documentSymbolPorvider then
+        navic.attach(client, bufnr)
+    end
 end
 
 -- advertising the nvim-cmp completion capabilities to lsp
