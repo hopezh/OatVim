@@ -15,6 +15,7 @@ return {
 
     config = function ()
         require('barbecue').setup({
+            context_follow_icon_color = true,
         })
     end,
 }
