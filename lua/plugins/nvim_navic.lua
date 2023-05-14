@@ -1,6 +1,6 @@
 return {
     'SmiteshP/nvim-navic',
-    -- enabled = false,
+    enabled = false,
 
     config = function ()
         require('nvim-navic').setup({
