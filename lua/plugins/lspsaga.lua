@@ -11,7 +11,7 @@ return {
     config = function()
         require('lspsaga').setup({
             symbol_in_winbar = {
-                enable = true,
+                enable = false, -- true | false
                 -- separator = " ",
                 separator = " ",
                 ignore_patterns={},
