@@ -8,7 +8,7 @@ vim.cmd([[  highlight SignColumn guibg=None  ]])
 vim.api.nvim_set_hl(0, "LeapLabelPrimary", { bg = "black", fg = "yellow" })
 
 -- specify cursor line number color --------------------------------------------
-vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "yellow" })
+vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "yellow", bg = "#292e42"})
 
 -- use H/L to cycle buffers forward/backward -----------------------------------
 vim.cmd[[
