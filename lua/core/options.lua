@@ -43,7 +43,7 @@ vim.opt.incsearch = true
 
 -- treesitter-based folding ----------------------------------------------------
 vim.opt.foldlevel = 20
-vim.opt.foldcolumn = "3"
+vim.opt.foldcolumn = "4"  -- max level of fold to shown fold symbol
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
