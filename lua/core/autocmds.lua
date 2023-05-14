@@ -28,4 +28,4 @@ vim.cmd([[
     let g:lazygit_config_file_path = '' " custom config file path
 ]])
 
---------------------------------------------------------------------------------
+

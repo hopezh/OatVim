@@ -8,7 +8,8 @@ return {
                 -- indicator_icon = "",
                 -- indicator_icon = "",
                 indicator_icon = " ",
-                seperator_style = 'slant',
+                seperator_style = 'thin',
+                show_buffer_close_icons = false,
             },
         })
     end,
