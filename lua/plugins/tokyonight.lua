@@ -10,7 +10,7 @@ return {
         -- light_style = "day", -- The theme is used when the background is set to light
         -- Enable this to disable setting the background color
         -- ...when enabled, need to provide background_colour="#000000" for nvim-notify
-        transparent = true,
+        transparent = false,
         terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
         styles = {
           -- Style to be applied to different syntax groups
@@ -44,9 +44,10 @@ return {
         ---@param colors ColorScheme
         on_highlights = function(highlights, colors)
           highlights.MsgArea = { bg = colors.none }
-        end,
+          -- highlights.CursorLineNr = { bg = highlights.CursorLine.bg }
+          highlights.CursorLineNr = { fg = "#ffff00" , bg = colors.bg_highlight }
+      end,
 
     },
-   
 }
 
