@@ -21,7 +21,7 @@ vim.cmd([[
 vim.opt.cursorline = true
 
 -- display --------------------------------------------------------------------- 
-vim.opt.signcolumn = 'yes:5'  -- always show signcolumn, max width 5
+vim.opt.signcolumn = 'yes:4'  -- always show signcolumn in max width specified
 vim.opt.termguicolors = true  -- enable highlight groups
 vim.opt.background = 'dark'
 
