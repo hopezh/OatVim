@@ -1,6 +1,9 @@
 -- load colorscheme ------------------------------------------------------------
 vim.cmd([[colorscheme tokyonight]])
 
+-- set background color of sign column -----------------------------------------
+vim.cmd([[  highlight SignColumn guibg=None  ]])
+
 -- specify leap result backdrop color ------------------------------------------
 vim.api.nvim_set_hl(0, "LeapLabelPrimary", { bg = "black", fg = "yellow" })
 
