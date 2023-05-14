@@ -62,6 +62,7 @@ return {
 			dashboard.opts
 		)
 
+        -- show neovim load time 
 		vim.api.nvim_create_autocmd("User", {
 			pattern = "LazyVimStarted",
 			callback = function()
