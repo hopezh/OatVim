@@ -24,7 +24,6 @@ require("lazy").setup("plugins")
 require("core.autocmds")
 
 require("plugins.config.lsp_config")
-
 require("plugins.config.completions")
 
 --------------------------------------------------------------------------------
