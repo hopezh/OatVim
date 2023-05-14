@@ -16,8 +16,8 @@ return {
     'saadparwaiz1/cmp_luasnip',
 
     -- lsp
-    'williamboman/mason.nvim',
-    'williamboman/mason-lspconfig.nvim',
+    -- 'williamboman/mason.nvim',
+    -- 'williamboman/mason-lspconfig.nvim',
     'neovim/nvim-lspconfig',
 
     -- a useless plugin...

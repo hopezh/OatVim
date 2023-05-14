@@ -1,16 +1,18 @@
 -- OatCracker's NeoVim Keymaps =================================================
 
+local keymap = vim.keymap.set
+
 -- set leader key as SPACE -----------------------------------------------------
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 -- use "jk" to ESC in each mode ------------------------------------------------
-vim.keymap.set("c", "jk", "<ESC>") -- command-line mode
-vim.keymap.set("i", "jk", "<ESC>") -- insert mode
-vim.keymap.set("o", "jk", "<ESC>") -- operator pending mode
-vim.keymap.set("s", "jk", "<ESC>") -- select mode
-vim.keymap.set("v", "jk", "<ESC>") -- visual & select mode
-vim.keymap.set("x", "jk", "<ESC>") -- visual mode
+keymap("c", "jk", "<ESC>") -- command-line mode
+keymap("i", "jk", "<ESC>") -- insert mode
+keymap("o", "jk", "<ESC>") -- operator pending mode
+keymap("s", "jk", "<ESC>") -- select mode
+keymap("v", "jk", "<ESC>") -- visual & select mode
+keymap("x", "jk", "<ESC>") -- visual mode
 
 -- toggle nvim-tree ------------------------------------------------------------
 -- vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
@@ -27,5 +29,6 @@ vim.cmd([[nmap <silent> <C-l> :wincmd l<CR>]])
 -- cellular-automaton ----------------------------------------------------------
 -- vim.keymap.set("n", "<leader>mir", "<cmd>CellularAutomaton make_it_rain<CR>")
 -- vim.keymap.set("n", "<leader>gol", "<cmd>CellularAutomaton game_of_life<CR>")
+
 
 --------------------------------------------------------------------------------

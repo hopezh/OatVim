@@ -13,14 +13,24 @@ require("mason-lspconfig").setup({
 })
 
 local on_attach = function(_, _)
-    vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
-    vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
+    -- vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
+    -- vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
 
     vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
     vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, {})
     vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, {})
     vim.keymap.set('n', 'gr', require('telescope.builtin').lsp_references, {})
-    vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
+    -- vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
+
+    -- attach lspsaga keymap
+    vim.keymap.set('n', '<leader>la', '<cmd>Lspsaga code_action<cr>', {})
+    vim.keymap.set('n', '<leader>ld', '<cmd>Lspsaga peek_definition<cr>', {})
+    vim.keymap.set('n', '<leader>lf', '<cmd>Lspsaga lsp_finder<cr>', {})
+    vim.keymap.set('n', '<leader>lg', '<cmd>Lspsaga goto_definition<cr>', {})
+    vim.keymap.set('n', '<leader>ll', '<cmd>Lspsaga show_line_diagnostics<cr>', {})
+    vim.keymap.set('n', '<leader>lo', '<cmd>Lspsaga outline<cr>', {})
+    vim.keymap.set('n', '<leader>lr', '<cmd>Lspsaga rename<cr>', {})
+    vim.keymap.set('n', 'K', '<cmd>Lspsaga hover_doc<cr>', {})
 end
 
 -- advertising the nvim-cmp completion capabilities to lsp
@@ -94,7 +104,7 @@ require("lspconfig").tailwindcss.setup({
 
 require("lspconfig").yamlls.setup({
     on_attach = on_attach,
-    capabilities = capabilities,
+    capabiliities = capabilities,
 })
 
 
