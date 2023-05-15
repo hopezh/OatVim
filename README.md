@@ -1,5 +1,7 @@
 # OatVim
-[WIP] Oatcracker's Neovim Config.
+[WIP] 
+
+Oatcracker's Neovim Config.
 
 ![2023-05-15 18 30 00](https://github.com/hopezh/OatVim/assets/23435810/9265b991-fefb-4b88-8d8f-fc4326453321)
 
