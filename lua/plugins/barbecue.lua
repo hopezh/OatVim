@@ -53,7 +53,14 @@ return {
                 Event = "",
                 Operator = "",
                 TypeParameter = "",
-              },
+            },
+
+            symbols = {
+                modified = "●",
+                ellipsis = "…",
+                separator = "",
+                -- separator = " ",
+            },
         })
     end,
 }
