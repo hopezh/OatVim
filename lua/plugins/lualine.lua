@@ -13,18 +13,9 @@ return {
                 section_separators = '',
             },
 
-            -- sections = {
-            --     lualine_c = {
-            --         {
-            --             function ()
-            --                 return navic.get_location()
-            --             end,
-            --             cond = function ()
-            --                 return navic.is_available() 
-            --             end
-            --         },
-            --     },
-            -- },
+            sections = {
+                lualine_c = {},
+            },
        }
     end,
 }
