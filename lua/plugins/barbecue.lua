@@ -10,8 +10,7 @@ return {
         'nvim-tree/nvim-web-devicons',
     },
 
-    opts = {
-    },
+    opts = {},
 
     config = function ()
         require('barbecue').setup({
