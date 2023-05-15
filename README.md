@@ -1,11 +1,11 @@
 # OatVim
 [WIP] Oatcracker's Neovim Config.
 
-![image](https://github.com/hopezh/OatVim/assets/23435810/9e745ee1-8a19-444c-80fc-313d9b83a09b)
+![2023-05-15 18 30 00](https://github.com/hopezh/OatVim/assets/23435810/9265b991-fefb-4b88-8d8f-fc4326453321)
 
-![image](https://github.com/hopezh/OatVim/assets/23435810/cfa8ea80-47cc-4ab5-af98-bedeb4f79178)
+![2023-05-15 18 29 10](https://github.com/hopezh/OatVim/assets/23435810/839849d1-3b7d-4641-96b9-065dadf8cf9b)
 
-![2023-05-13 22 26 59](https://github.com/hopezh/OatVim/assets/23435810/9f275424-3d7d-4bd7-9676-5ea09657912c)
+![2023-05-15 18 34 24](https://github.com/hopezh/OatVim/assets/23435810/7a06b380-4453-4da6-b385-d555244daf35)
 
 ![2023-05-13 22 28 00](https://github.com/hopezh/OatVim/assets/23435810/c6491e76-8a34-42f4-8384-7637e7400663)
 
