@@ -4,7 +4,7 @@ if (not status)  then return end
 zenMode.setup {
     window = {
         backdrop = 0.95,
-        width = 120,
+        width = 140,
     },
 }
 
