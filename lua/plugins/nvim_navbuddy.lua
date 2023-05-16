@@ -9,8 +9,6 @@ return {
         'nvim-telescope/telescope.nvim',
     },
 
-    lazy = true,
-
     keys = {
         { "<leader>nv", "<cmd>Navbuddy<cr>", desc = "Navbuddy" },
     },
