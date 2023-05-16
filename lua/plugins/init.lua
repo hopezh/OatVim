@@ -20,6 +20,8 @@ return {
     -- 'williamboman/mason-lspconfig.nvim',
     'neovim/nvim-lspconfig',
 
+    'folke/zen-mode.nvim',
+
     -- a useless plugin...
 	"eandrju/cellular-automaton.nvim",
 
