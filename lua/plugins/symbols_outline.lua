@@ -12,9 +12,9 @@ return {
     opts = {
         highlight_hovered_item = true,
         show_guides = true,
-        auto_preview = false,
+        auto_preview = true,
         position = 'right',
-        relative_width = true,
+        relative_width = false,
         width = 30,
         auto_close = false,
         show_numbers = false,
