@@ -1,7 +1,7 @@
 local status, zenMode = pcall(require, 'zen-mode')
 if (not status)  then return end
 
-zenMode.setupp {
+zenMode.setup {
     window = {
         backdrop = 0.95,
         width = 120,
