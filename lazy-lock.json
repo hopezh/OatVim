@@ -26,6 +26,7 @@
   "nvim-autopairs": { "branch": "master", "commit": "7747bbae60074acf0b9e3a4c13950be7a2dff444" },
   "nvim-cmp": { "branch": "main", "commit": "768548bf4980fd6d635193a9320545bb46fcb6d8" },
   "nvim-lspconfig": { "branch": "master", "commit": "30a232052b3e1c0c51d190d5f5a12ad9b42c5ebc" },
+  "nvim-navbuddy": { "branch": "master", "commit": "71424b01051913eee6db0cc4b34b1b9a1a31f5c1" },
   "nvim-navic": { "branch": "master", "commit": "15704c607569d6c5cfeab486d3ef9459645a70ce" },
   "nvim-notify": { "branch": "master", "commit": "f3024b912073774111202f5fa6518b0cd2a74432" },
   "nvim-surround": { "branch": "main", "commit": "e6047128e57c1aff1566fb9f627521d2887fc77a" },
