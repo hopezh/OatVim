@@ -1,6 +1,8 @@
 return {
     'SmiteshP/nvim-navbuddy',
 
+    lazy = false,
+
     dependencies = {
         'neovim/nvim-lspconfig',
         'SmiteshP/nvim-navic',
