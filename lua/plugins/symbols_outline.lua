@@ -1,6 +1,5 @@
 return {
     'simrat39/symbols-outline.nvim',
-    enabled = false,
 
     keys = {
       { "<leader>sy", "<cmd>SymbolsOutline<cr>", desc = "Symbol Outline" },
@@ -16,7 +15,7 @@ return {
         auto_preview = false,
         position = 'right',
         relative_width = true,
-        width = 25,
+        width = 30,
         auto_close = false,
         show_numbers = false,
         show_relative_numbers = false,
