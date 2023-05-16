@@ -6,7 +6,9 @@ zenMode.setup {
         backdrop = 0.95,
         width = 140,
     },
+
 }
 
 vim.keymap.set('n', '<leader>zo', '<cmd>ZenMode<cr>', { silent = true })
+
 
