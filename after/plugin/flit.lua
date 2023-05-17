@@ -10,7 +10,7 @@ flit.setup {
     },
 
     -- A string like "nv", "nvo", "o", etc.
-    labeled_modes = "nvo",
+    labeled_modes = "nv",
 
     multiline = true,
 
