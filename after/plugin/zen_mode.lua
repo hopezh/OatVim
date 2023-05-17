@@ -9,6 +9,6 @@ zenMode.setup {
 
 }
 
-vim.keymap.set('n', '<leader>zo', '<cmd>ZenMode<cr>', { silent = true })
+vim.keymap.set('n', '<leader>zz', '<cmd>ZenMode<cr>', { silent = true })
 
 
