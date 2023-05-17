@@ -8,10 +8,10 @@ navbuddy.setup({
   },
 
   mappings = {
-    ["k"] = actions.next_sibling,
-    ["i"] = actions.previous_sibling,
-    ["j"] = actions.parent,
-    ["l"] = actions.children,
+    ["j"] = actions.next_sibling(),
+    ["k"] = actions.previous_sibling(),
+    ["h"] = actions.parent(),
+    ["l"] = actions.children(),
   },
 
   lsp = {
