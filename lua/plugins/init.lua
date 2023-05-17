@@ -20,6 +20,24 @@ return {
     -- 'williamboman/mason-lspconfig.nvim',
     'neovim/nvim-lspconfig',
 
+    {
+        'SmiteshP/nvim-navbuddy',
+
+        lazy = false,
+
+        dependencies = {
+            'neovim/nvim-lspconfig',
+            'SmiteshP/nvim-navic',
+            'MunifTanjim/nui.nvim',
+            'numToStr/Comment.nvim',
+            'nvim-telescope/telescope.nvim',
+        },
+
+        keys = {
+            { "<leader>nv", "<cmd>Navbuddy<cr>", desc = "Navbuddy" },
+        },
+    },
+
     'folke/zen-mode.nvim',
 
     'ggandor/flit.nvim',
