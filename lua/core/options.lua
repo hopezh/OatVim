@@ -21,7 +21,7 @@ vim.cmd([[
 vim.opt.cursorline = true
 
 -- display --------------------------------------------------------------------- 
-vim.opt.signcolumn = 'yes:4'  -- always show signcolumn in max width specified
+vim.opt.signcolumn = 'yes:3'  -- always show signcolumn in max width specified
 vim.opt.termguicolors = true  -- enable highlight groups
 vim.opt.background = 'dark'
 
@@ -43,7 +43,7 @@ vim.opt.incsearch = true
 
 -- treesitter-based folding ----------------------------------------------------
 vim.opt.foldlevel = 20
-vim.opt.foldcolumn = "4"  -- max level of fold to shown fold symbol
+vim.opt.foldcolumn = "3"  -- max level of fold to shown fold symbol
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
