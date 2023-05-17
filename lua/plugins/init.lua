@@ -22,6 +22,8 @@ return {
 
     'folke/zen-mode.nvim',
 
+    'ggandor/flit.nvim',
+
     -- a useless plugin...
 	"eandrju/cellular-automaton.nvim",
 
