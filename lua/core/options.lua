@@ -47,6 +47,10 @@ vim.opt.foldcolumn = "3"  -- max level of fold to shown fold symbol
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
+-- split -----------------------------------------------------------------------
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
 -- no swap file ----------------------------------------------------------------
 vim.cmd("set noswapfile")
 
