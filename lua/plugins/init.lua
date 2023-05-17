@@ -3,6 +3,22 @@
 return {
     'nvim-lua/plenary.nvim',
 
+    {
+        'nvim-telescope/telescope.nvim',
+        tag = '0.1.1',
+        dependencies = {
+            'nvim-lua/plenary.nvim'
+        },
+    },
+
+    {
+        'nvim-telescope/telescope-file-browser.nvim',
+        dependencies = {
+            'nvim-telescope/telescope.nvim',
+            'nvim-lua/plenary.nvim'
+        },
+    },
+
     -- auto completion 
     'hrsh7th/cmp-buffer',
     'hrsh7th/cmp-nvim-lsp',
