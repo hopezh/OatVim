@@ -63,7 +63,7 @@ config = function()
 
         b = {
             name = "Buffer",
-            ["d"] = { "<cmd>bdelete<CR>", "Kill Buffer" },  -- Close current file
+            ["x"] = { "<cmd>bdelete<CR>", "Kill Buffer" },  -- Close current file
         },
 
         f = {
@@ -74,8 +74,8 @@ config = function()
             f = { "<cmd>Telescope find_files<cr>", "Find files" },
             t = { "<cmd>Telescope live_grep <cr>", "Find Text Pattern In All Files" },
             r = { "<cmd>Telescope oldfiles<cr>", "Open Recent File" },
-            -- w = { "<cmd>Telescope file_browser<cr>", "Open file browser" },
-            -- W = { "<cmd>Telescope file_browser path=%:p:h select_buffer=trure<cr>", "Open file browser: curent buffer path" },
+            w = { "<cmd>Telescope file_browser<cr>", "Open file browser" },
+            W = { "<cmd>Telescope file_browser path=%:p:h select_buffer=trure<cr>", "Open file browser: curent buffer path" },
         },
 
         g = {
@@ -109,7 +109,6 @@ config = function()
             g = { "<cmd>CellularAutomaton game_of_life<CR>", "Game of life..." },
             y = { "<cmd>Lazy<CR>", "Lazy" }, -- invoke lazy.nvim plugin manager
         },
-
 
     }
 
