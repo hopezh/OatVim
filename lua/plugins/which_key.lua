@@ -68,12 +68,14 @@ config = function()
 
         f = {
             name = "File Search",
-            b = { "<cmd>Telescope buffer<cr>", "Find buffer" },
+            b = { "<cmd>Telescope buffers<cr>", "Find buffers" },
             c = { "<cmd>Telescope colorscheme<cr>", "Find colorscheme" },
             -- f = { "<cmd>lua require('telescope.builtin').find_files()<cr>", "Find files" },
             f = { "<cmd>Telescope find_files<cr>", "Find files" },
             t = { "<cmd>Telescope live_grep <cr>", "Find Text Pattern In All Files" },
             r = { "<cmd>Telescope oldfiles<cr>", "Open Recent File" },
+            -- w = { "<cmd>Telescope file_browser<cr>", "Open file browser" },
+            -- W = { "<cmd>Telescope file_browser path=%:p:h select_buffer=trure<cr>", "Open file browser: curent buffer path" },
         },
 
         g = {
@@ -105,7 +107,7 @@ config = function()
             name = "zzz...",
             m = { "<cmd>CellularAutomaton make_it_rain<CR>", "Make it rain..." },
             g = { "<cmd>CellularAutomaton game_of_life<CR>", "Game of life..." },
-            z = { "<cmd>Lazy<CR>", "Lazy" }, -- invoke lazy.nvim plugin manager
+            y = { "<cmd>Lazy<CR>", "Lazy" }, -- invoke lazy.nvim plugin manager
         },
 
 
