@@ -11,15 +11,15 @@ return {
     config = function()
         require('lspsaga').setup({
             symbol_in_winbar = {
-                enable = false, -- true | false
-                -- separator = " ",
-                separator = " ",
-                ignore_patterns={},
-                hide_keyword = true,
-                show_file = false, -- true | false 
-                folder_level = 2,
-                respect_root = false,
-                color_mode = true,
+                enable          = false, -- true | false
+                -- separator    = " ",
+                separator       = " ",
+                ignore_patterns = {},
+                hide_keyword    = true,
+                show_file       = false, -- true | false
+                folder_level    = 2,
+                respect_root    = false,
+                color_mode      = true,
             },
         })
     end
