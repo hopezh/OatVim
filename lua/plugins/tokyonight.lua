@@ -16,8 +16,8 @@ return {
           -- Style to be applied to different syntax groups
           -- Value is any valid attr-list value for `:help nvim_set_hl`
           comments = { italic = true },
-          keywords = { italic = true },
-          functions = {},
+          keywords = { italic = true, bold = true },
+          functions = { bold = true },
           variables = {},
           -- Background styles. Can be "dark", "transparent" or "normal"
           sidebars = "transparent",
@@ -33,7 +33,7 @@ return {
         --- function will be called with a ColorScheme table
         ---@param colors ColorScheme
         on_colors = function(colors)
-          colors.border = "#3d3d3d" -- border color of split windows
+          colors.border = "#303030" -- border color of split windows
           -- colors.bg = "#181818" -- background color for active window
           colors.bg_dark = "#0c0c0c" -- background color for inactive windows
         end,
