@@ -29,10 +29,12 @@ local on_attach = function(client, bufnr)
     vim.keymap.set('n', '<leader>ld', '<cmd>Lspsaga peek_definition<cr>', {})
     vim.keymap.set('n', '<leader>lf', '<cmd>Lspsaga lsp_finder<cr>', {})
     vim.keymap.set('n', '<leader>lg', '<cmd>Lspsaga goto_definition<cr>', {})
+    vim.keymap.set('n', '<leader>lk', '<cmd>vim.lsp.buf.signature_help<>', {})
+    vim.keymap.set('n', 'K', '<cmd>Lspsaga hover_doc<cr>', {})
+    vim.keymap.set('n', '<leader>lK', '<cmd>Lspsaga hover_doc<cr>', {})
     vim.keymap.set('n', '<leader>ll', '<cmd>Lspsaga show_line_diagnostics<cr>', {})
     vim.keymap.set('n', '<leader>lo', '<cmd>Lspsaga outline<cr>', {})
     vim.keymap.set('n', '<leader>lr', '<cmd>Lspsaga rename<cr>', {})
-    vim.keymap.set('n', 'K', '<cmd>Lspsaga hover_doc<cr>', {})
 
     if client.server_capabilities.documentSymbolPorvider then
         navic.attach(client, bufnr)
