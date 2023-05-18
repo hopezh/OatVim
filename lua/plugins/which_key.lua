@@ -85,13 +85,21 @@ config = function()
 
         l = {
             name = "LSP",
-            a = { "<cmd>Lspsaga code_action<cr>", "Code action" },
-            d = { "<cmd>Lspsaga peek_definition<cr>", "Peek definition" },
-            f = { "<cmd>Lspsaga lsp_finder<cr>", "Find definition" },
-            g = { "<cmd>Lspsaga goto_definition<cr>", "Go to definition" },
-            r = { "<cmd>Lspsaga rename<cr>", "Rename" },
-            l = { "<cmd>Lspsaga show_line_diagnostics<cr>", "Show line diagnostics" },
-            o = { "<cmd>Lspsaga outline<cr>", "Show outline" },
+            a = { "<cmd>Lspsaga code_action                 <cr>", "Code action" },
+            b = { "<cmd>Lspsaga show_buf_diagnostics        <cr>", "Show buffer diagnostics" },
+            d = { "<cmd>Lspsaga peek_definition             <cr>", "Peek definition" },
+            D = { "<cmd>vim.lsp.buf.declaration()           <cr>", "Go to declaration" },
+            f = { "<cmd>Lspsaga lsp_finder                  <cr>", "Find definition" },
+            g = { "<cmd>Lspsaga goto_definition             <cr>", "Go to definition" },
+            i = { "<cmd>LspInfo                             <cr>", "Show connected LSP servers" },
+            k = { "<cmd>vim.lsp.buf.signature_help()        <cr>", "Signature help"},
+            K = { '<cmd>Lspsaga hover_doc                   <cr>', 'Hover doc' },
+            l = { "<cmd>Lspsaga show_line_diagnostics       <cr>", "Show line diagnostics" },
+            o = { "<cmd>Lspsaga outline                     <cr>", "Show outline" },
+            r = { "<cmd>Lspsaga rename                      <cr>", "Rename" },
+            s = { "<cmd>vim.lsp.buf.references()            <cr>", "Show references" },
+            t = { "<cmd>Lspsaga peek_type_definition        <cr>", "Peek type definition" },
+            w = { "<cmd>Lspsaga show_workspace_diagnostics  <cr>", "Show workspace diagnostics" },
         },
 
         s = {
@@ -120,4 +128,4 @@ end,
 
 }
 
--------------------------------------------------------------------------------
+--------------------------------
