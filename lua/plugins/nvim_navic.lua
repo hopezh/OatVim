@@ -5,6 +5,7 @@ return {
     config = function ()
         require('nvim-navic').setup({
             icons = {
+                -- default icons 
                 -- File          = "󰈙 ",
                 -- Module        = " ",
                 -- Namespace     = "󰌗 ",
@@ -70,16 +71,17 @@ return {
             },
 
             lsp = {
-                auto_attach = false,
+                auto_attach = true,
                 preference = nil,
             },
 
-            highlight = false,
-            separator = " > ",
+            highlight = true,
+            -- separator = " > ",
+            separator = "  ",
             depth_limit = 0,
             depth_limit_indicator = "..",
             safe_output = true,
-            click = false
+            click = true,
         })
     end,
 }
