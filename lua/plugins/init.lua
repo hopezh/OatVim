@@ -60,6 +60,8 @@ return {
 
     'ggandor/flit.nvim',
 
+    'junegunn/vim-easy-align',
+
     -- a useless plugin...
 	"eandrju/cellular-automaton.nvim",
 
