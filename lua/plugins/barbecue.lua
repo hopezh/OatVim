@@ -1,5 +1,6 @@
 return {
     'utilyre/barbecue.nvim',
+    enabled = false,
 
     name = 'barbecue',
 
@@ -58,7 +59,6 @@ return {
                 modified = "●",
                 ellipsis = "…",
                 separator = "",
-                -- separator = " ",
             },
         })
     end,
