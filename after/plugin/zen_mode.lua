@@ -10,7 +10,6 @@ zenMode.setup {
             -- number = false,
         },
     },
-
 }
 
 vim.keymap.set(
