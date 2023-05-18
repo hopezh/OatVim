@@ -1,5 +1,3 @@
-local navic = require("nvim-navic")
-
 -- customize winbar file path color 
 local custom_winbar_color = require('lualine.themes.tokyonight')
 custom_winbar_color.normal.a.bg = ''
