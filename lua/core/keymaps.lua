@@ -3,7 +3,7 @@
 local keymap = vim.keymap.set
 
 -- set leader key as SPACE -----------------------------------------------------
-vim.g.mapleader = " "
+vim.g.mapleader      = " "
 vim.g.maplocalleader = " "
 
 -- use "jk" to ESC in each mode ------------------------------------------------
@@ -30,5 +30,10 @@ vim.cmd([[nmap <silent> <C-l> :wincmd l<CR>]])
 -- vim.keymap.set("n", "<leader>mir", "<cmd>CellularAutomaton make_it_rain<CR>")
 -- vim.keymap.set("n", "<leader>gol", "<cmd>CellularAutomaton game_of_life<CR>")
 
+-- vim-easy-align --------------------------------------------------------------
+vim.cmd([[nmap ga <Plug>(EasyAlign)]])  -- !!! no spaces around vim cmd inside [[]]
+vim.cmd([[xmap ga <Plug>(EasyAlign)]])
+-- vim.cmd([[nmap ga :EasyAlign]])
+-- vim.cmd([[xmap ga :EasyAlign]])
 
 --------------------------------------------------------------------------------
