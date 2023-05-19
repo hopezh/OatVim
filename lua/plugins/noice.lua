@@ -6,6 +6,7 @@ return {
         'rcarriga/nvim-notify',
     },
 
+
     config = function()
         require('noice').setup({
             cmdline = {
@@ -34,6 +35,12 @@ return {
 
             -- display cmdline and popupmenu together
             views = {
+                mini = {
+                    win_options = {
+                        winblend = 0, -- transparent bg for mini lsp message 
+                    },
+                },
+
                 cmdline_popup = {
                     position = {
                       row = 5,
