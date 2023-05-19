@@ -62,6 +62,8 @@ return {
 
     'junegunn/vim-easy-align',
 
+    'mechatroner/rainbow_csv',
+
     -- a useless plugin...
 	"eandrju/cellular-automaton.nvim",
 
