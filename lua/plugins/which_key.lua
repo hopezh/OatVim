@@ -103,6 +103,12 @@ config = function()
             w = { "<cmd>Lspsaga show_workspace_diagnostics<cr>", "Show workspace diagnostics" },
         },
 
+        r = {
+            name = "RainbowCSV",
+            a = {"<cmd>RainbowAlign<cr>", "Align CSV"},
+            s = {"<cmd>RainbowShrink<cr>", "Shrink CSV"},
+        },
+
         s = {
             name = "Search",
             h = { "<cmd>Telescope help_tags<cr>", "Find Help" },
