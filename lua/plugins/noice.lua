@@ -32,18 +32,6 @@ return {
                 lsp_doc_border = false, -- add a border to hover docs and signature help
             },
 
-            -- views = {
-            --     cmdline_popup = { -- show a clean cmdline_popup
-            --         border = {
-            --             style = 'none', -- none/rounded
-            --             padding = { 1, 1 },
-            --         },
-            --         win_options = {
-            --             winhighlight = "NormalFloat:NormalFloat,FloatBorder:FloatBorder",
-            --         },
-            --     },
-            -- },
-
             -- display cmdline and popupmenu together
             views = {
                 cmdline_popup = {
@@ -54,6 +42,10 @@ return {
                     size = {
                       width = 60,
                       height = "auto",
+                    },
+                    border = {
+                        style = 'rounded',
+                        padding = { 0, 1 },
                     },
                 },
 
