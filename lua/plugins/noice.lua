@@ -37,7 +37,7 @@ return {
             views = {
                 mini = {
                     win_options = {
-                        winblend = 0, -- transparent bg for mini lsp message 
+                        -- winblend = 100, -- transparent bg for mini lsp message 
                     },
                 },
 
