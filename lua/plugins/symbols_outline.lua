@@ -1,5 +1,6 @@
 return {
     'simrat39/symbols-outline.nvim',
+    -- enabled = false,
 
     keys = {
       { "<leader>sy", "<cmd>SymbolsOutline<cr>", desc = "Symbol Outline" },
@@ -14,8 +15,8 @@ return {
         show_guides            = true,
         auto_preview           = true,
         position               = 'right',
-        relative_width         = false,
-        width                  = 30,
+        relative_width         = true,
+        width                  = 50,
         auto_close             = false,
         show_numbers           = false,
         show_relative_numbers  = false,
@@ -24,7 +25,8 @@ return {
         autofold_depth         = nil,
         auto_unfold_hover      = true,
         fold_markers           = { '', '' },
-        wrap                   = false,
+        wrap                   = true,
+        winblend               = 0,
 
         keymaps = { -- These keymaps can be a string or a table for multiple keys
             close          = {"<Esc>", "q"},
@@ -41,7 +43,7 @@ return {
             fold_reset     = "R",
         },
 
-        klsp_blacklist = {},
+        lsp_blacklist = {},
         symbol_blacklist = {},
 
         symbols = {
